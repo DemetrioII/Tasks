@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+    Фамилия: {{d["surname"]}} <br>
+    Имя: {{d["name"]}} <br>
+    Образование: {{d["education"]}} <br>
+    Профессия: {{d["profession"]}} <br>
+    Пол: {{d["sex"]}} <br>
+    Мотивация: {{d["motivation"]}} <br>
+    Готовы остаться на Марсе? {{d["ready"]}}
+{% endblock %}
